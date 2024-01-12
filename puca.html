@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pucallpa</title>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stilopu.css">
+    
+</head>
+<style>
+    
+    * {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            box-sizing: border-box;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+        }
+
+
+        nav {
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            width: 100%;
+            min-width: 700px;
+            padding: 5px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #039F6E;
+            /* Asegurarse de que el menú esté en la parte superior */
+        }
+   
+        .loba{
+    position: absolute;
+    top: 32px;
+    right: 83%;
+    height: 100px;
+  
+
+}
+.logo{
+    height: 100px;
+    
+   
+    margin-left: 50px;
+}
+       
+        .cont-ul li a {
+            color: #fff;
+           
+           
+           }
+           .cont-ul {
+            right: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            align-items: center;
+            margin-right: 50px;
+            position: absolute;
+           }
+           .cont-ul   li {
+               list-style: none;
+               cursor: pointer;
+               padding: 20px;
+               transition: all 0.3s ease 0s;
+             
+           }
+           
+           nav    li:hover{
+               color: rgb(3, 53, 82);
+           }
+           
+           .cont-ul    li:hover {
+               background-color:#B3FADF;
+           }
+           .ul-second {
+               display: none;
+               position: absolute;
+               transform: translateY(20px);
+           }
+           .ul-second > li{
+           
+           border-bottom: solid 1px #fff;
+           text-align: center;
+           background-color: #039F6E;
+           padding: 20px;
+           width: 190px;
+           transform: translateX(-20px);
+           }
+           .ul-second > li:hover{
+               background-color:#B3FADF;
+           }
+           
+           .develop:hover > .ul-second {
+               display: block;
+           }
+           .ul-third{
+               position: absolute;
+               transform: translateX(100%);
+               right: 0;
+               top: 40%;
+               display: none;
+               background-color: #B3FADF;
+           }
+           
+           .ul-third > li {
+               padding: 20px;
+               border-bottom: solid 1px #fff;
+           }
+           .front:hover > .ul-third {
+               display: block;
+           }
+           
+    .slider{
+        display: flex;
+        padding: 0;
+        width: 100%;
+        height: 430;
+        
+    }
+    
+    .slider-img{
+        width: 2000%;
+        flex-grow: 1;
+        object-fit: cover;
+        transition: .5s ease;
+        
+    }
+    .slider li{
+        list-style: none;
+    }
+    
+  
+    .slider img:hover{
+       width: 300px;
+       opacity: 1;
+       filter: contrast(120%); 
+    }
+    
+    
+
+</style>
+<body>
+
+
+    <nav>
+        <a href="index.html"><img src="imagenes/logo3.png" class="logo"  ></a>
+
+        <div class="loba">   <a href="index.html"><h1>Lobatours</h1></a></div>
+       <ul class="cont-ul">
+           
+       
+           <li ><a href="index.html">INICIO</a></li>
+           
+           <li class="develop">
+            <a href="">LUGARES</a>
+               <ul class="ul-second">
+                <li class="back" ><a href="aguaytia.html">AGUAYTIA</a> </li> 
+                   <li class="front"> <a href="puca.html">PUCALLPA</a>
+                       
+                   </li>
+                   <li>  <a href="contamana.html">CONTAMANA</a></li>
+                </li>
+               </ul>
+           </li>
+           <li> <a href="ubicacion.html">UBICACION</a></li>
+           <li>  <a href="contacto.html">CONTACTO</a></li>
+       </ul>
+    </nav>
+
+    <div class="m">
+
+        <header class="titulos">
+        
+            <div class="galeria">
+                <section>
+                    <img src="pucallpa/pucallpa1.png" alt="">
+                    <img src="pucallpa/pucallpa2.jpg" alt="">
+                    <img src="pucallpa/pucallpa3.jpg" alt="">
+                    <img src="pucallpa/pucallpa4.jpg" alt="">
+                    <img src="pucallpa/pucallpa5.jpg" alt="">
+                    <img src="pucallpa/pucallpa6.png" alt="">
+
+                </section>
+            </div>
+        </header>
+    </div>
+    <main>
+
+
+        <h1 class="titulo-lugares">Conosca los lugares que te ofrece la Tierra Colorada</h1>
+
+        <!--de aqi para abajo le pertenece a los luagres turisticos-->
+            <div id="container-lugares">
+
+        <div class="flex-container ">
+            <article class="flex-item ">
+                <h2>PUCALLPA</h2>
+                <p>Pucallpa es una ciudad peruana capital del distrito de Callería y a la vez de la provincia de Coronel
+                    Portillo y del departamento de Ucayali. Se ubica al centro este del país. Es la décima ciudad más
+                    poblada del Perú y albergaba en el año 2017 a una población de 370 791 habitantes.</p>
+                <p>Esta a 15 minutos de la ciudad de pucallpa. Yarinacocha tiene una hermoza Laguna turistica en el cual
+                    se encuentra la restinga. ideal para ver el hermoso ocaso selvatico y disfrutarlo entre amigos y
+                    familiares</p>
+            </article>
+            <article class="flex-item ">
+                <div class="slider-frame">
+                    <ul>
+                    <li><img src="slider/pucallpa1.jpg" alt="100%" width="100%"></li>
+                    <li><img src="slider/pucallpa2.jpg" alt="100%" width="100%"></li>
+                    <li><img src="slider/pucallpa3.jpg" alt="100%" width="100%"></li>
+                    <li><img src="slider/pucallpa4.jpg" alt="100%" width="100%"></li>
+                </ul>
+                </div> 
+            </article>
+        </div>
+    
+        <div class="flex-container">
+            <article class="flex-item">
+                <h2>SAN FRANCISCO</h2>
+                <p>Ubicada a 14 Km. del puerto Callao (45 minutos en bote desde el puerto de Yarinacocha ó 15 minutos en
+                    auto desde Pucallpa,
+                    aproximadamente). Es el más antiguo y numeroso centro poblado de las comunidades nativas de la etnia
+                    Shipibo - Conibo en
+                    la zona. Sus habitantes mantienen viva su cultura manifestada a través de la artesanía, idioma,
+                    rituales, tradiciones, el
+                    uso de plantas medicinales y la utilización de materiales propios de la zona para construir sus
+                    viviendas.
+                </p>
+            </article>
+            <article class="flex-item">
+                <div class="slider-frame">
+                    <ul>
+                    <li><img src="slider/sf1.jpg" alt="100%" width="100%"></li>
+                    <li><img src="slider/sf2.jpg" alt="100%" width="100%"></li>
+                    <li><img src="slider/sf3.jpg" alt="100%" width="100%"></li>
+                    <li><img src="slider/sf4.jpg" alt="100%" width="100%"></li>
+                </ul>
+                </div> 
+            </article>
+
+        </div>
+        <div class="flex-container ">
+            <article class="flex-item ">
+                <h2 >CASHIBO COCHA</h2>
+                <p>Pucallpa es una ciudad peruana capital del distrito de Callería y a la vez de la provincia de Coronel
+                    Portillo y del departamento de Ucayali. Se ubica al centro este del país. Es la décima ciudad más
+                    poblada del Perú y albergaba en el año 2017 a una población de 370 791 habitantes.</p>
+                <p>Esta a 15 minutos de la ciudad de pucallpa. Yarinacocha tiene una hermoza Laguna turistica en el cual
+                    se encuentra la restinga. ideal para ver el hermoso ocaso selvatico y disfrutarlo entre amigos y
+                    familiares</p>
+            </article>
+            <article class="flex-item">
+                <div class="slider-frame">
+                    <ul>
+                    
+                        <li><img src="slider/cashibo1.jpg" alt="100%" width="100%"></li>
+                        <li><img src="slider/cashibo2.jpg" alt="100%" width="100%"></li>
+                        <li><img src="slider/cashibo3.jpg" alt="100%" width="100%"></li>
+                        <li><img src="slider/cashibo4.jpg" alt="100%" width="100%"></li>
+                </ul>
+                </div> 
+            </article>
+
+        </div>
+    </div>
+       
+<!-------------------------------------------fin de la seccion lugares comunes------------------------------------->
+
+
+
+<!--------------------------de aqui para abajo pertence a lugares mas visitados------------------------------------->
+<h1 class="titulo-lugares">Conosca los lugares mas visitados de la Tierra Colorada</h1>
+
+<center>
+     <div class="flex-container-tendencia ">
+            <article class="flex-item ">
+                <h2>SAN JOSE</h2>
+                <p>Pucallpa es una ciudad peruana capital del distrito de Callería y a la vez de la provincia de Coronel
+                    Portillo y del departamento de Ucayali. Se ubica al centro este del país. Es la décima ciudad más
+                    poblada del Perú y albergaba en el año 2017 a una población de 370 791 habitantes.</p>
+                <p>Esta a 15 minutos de la ciudad de pucallpa. Yarinacocha tiene una hermoza Laguna turistica en el cual
+                    se encuentra la restinga. ideal para ver el hermoso ocaso selvatico y disfrutarlo entre amigos y
+                    familiares</p>
+            </article>
+            <article class="flex-item-tendencia">
+                <div>
+                    <div class="slider-frame-tendencia">
+                        <ul>
+                        <li><img src="slider/sanjose1.jpg" alt="100%" width="100%"></li>
+                        <li><img src="slider/sanjose2.jpg" alt="100%" width="100%"></li>
+                        <li><img src="slider/sanjose3.jpg" alt="100%" width="100%"></li>
+                        <li><img src="slider/sanjose4.jpg" alt="100%" width="100%"></li>
+                    </ul>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    
+   
+        
+        <div class="flex-container-tendencia">
+            <article class="flex-item">
+                <h2>La Restinga</h2>
+                <p>Esta a 15 minutos de la ciudad de pucallpa. Yarinacocha tiene una hermoza Laguna turistica en el cual
+                    se encuentra la restinga. ideal para ver el hermoso ocaso selvatico y disfrutarlo entre amigos y
+                    familiares</p>
+            </article>
+            <article class="flex-item-tendencia">
+                <div class="slider-frame-tendencia">
+                    <ul>
+                        <li><img src="slider/restinga1.jpg" alt="100%" width="100%"></li>
+                        <li><img src="slider/retinga2.jpg" alt="100%" width="100%"></li>
+                        <li><img src="slider/restinga3.jpg" alt="100%" width="100%"></li>
+                        <li><img src="slider/restinga4.jpg" alt="100%" width="100%"></li>
+                    
+                </ul>
+                </div> 
+            </article>
+        </div>
+    </center>
+    <!-- ------------------------------------------------the end----------------- -->
+
+
+
+    </main>
+
+    <div class="footerd">
+        <footer class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="imagenes/logo3.png" alt="Logo de SLee Dw">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p>
+                        Loba Tours es una empresa de turismo con sede en UCAYALI.</p>
+                    <p>Nuestro objetivo es ofrecer servicios turísticos de alta calidad y personalizados, adaptados a
+                        las necesidades y preferencias individuales de cada viajero.</p>
+
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="grupo-2">
+                <small>&copy; 2024 <b>SLee Dw</b>
+                    <ul>
+                        <li> kevin</li>
+                        <li>amarilis</li>
+                        aldair
+                    </ul>
+                </small>
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

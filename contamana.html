@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contamana</title>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<style>
+
+/*:::::este menu*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    min-width: 700px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #039F6E;
+}
+
+.loba{
+    position: absolute;
+    top: 32px;
+    right: 84%;
+    height: 100px;
+  
+
+}
+
+
+
+.logo{
+ height: 100px;
+ width: 100px;
+    
+   
+    margin-left: 50px;
+}
+.cont-ul li a {
+ color: #fff;
+
+
+}
+.cont-ul {
+ right: 100px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ align-items: center;
+ margin-right: 50px;
+ position: absolute;
+}
+.cont-ul   li {
+    list-style: none;
+    cursor: pointer;
+    padding: 20px;
+    transition: all 0.3s ease 0s;
+  
+}
+
+nav   li:hover{
+    color: rgb(3, 53, 82);
+}
+
+.cont-ul    li:hover {
+    background-color:#B3FADF;
+}
+.ul-second {
+    display: none;
+    position: absolute;
+    transform: translateY(20px);
+}
+.ul-second > li{
+
+border-bottom: solid 1px #fff;
+text-align: center;
+background-color: #039F6E;
+padding: 20px;
+width: 190px;
+transform: translateX(-20px);
+}
+.ul-second > li:hover{
+    background-color:#B3FADF;
+}
+
+.develop:hover > .ul-second {
+    display: block;
+}
+.ul-third{
+    position: absolute;
+    transform: translateX(100%);
+    right: 0;
+    top: 40%;
+    display: none;
+    background-color: #B3FADF;
+}
+
+.ul-third > li {
+    padding: 20px;
+    border-bottom: solid 1px #fff;
+}
+.front:hover > .ul-third {
+    display: block;
+}
+
+
+/*:::::fin*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+header {
+    background-color: #d3979761;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.pie img{
+    width: 800px;
+    height: 400px;
+}
+.pie p{
+    width: 800px;
+    height: 100px; 
+}
+.footerd{
+  
+  background-color: white;
+  border: black 1px solid;
+  position: relative;
+  top: 100px;
+  
+}
+.footerd img {
+    width: 10px;
+
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+  width: 100%;
+  background-color: #0a141d;
+  
+}
+
+.box h2 {
+
+  font-family: 'Open Sans', sans-serif;
+}
+.box p {
+  font-family: 'Open Sans', sans-serif;
+}
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+  width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+  color: #efefef;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #0d2033;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+  color: aqua;
+}
+.pie-pagina .grupo-2{
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+.pie-pagina .grupo-2 small{
+  font-size: 15px;
+}
+@media screen and (max-width:800px){
+  .pie-pagina .grupo-1{
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap:30px;
+      padding: 35px 0px;
+  }
+}
+
+
+</style>
+
+
+  <!-- este es menu  -->
+  <nav>
+   
+    <a href="index.html"><img src="imagenes/logo3.png" class="logo"  ></a>
+
+     
+    <ul class="cont-ul">
+        
+    
+        <li ><a href="index.html">INICIO</a></li>
+        
+        <li class="develop">
+            <a href="">LUGARES</a>
+            <ul class="ul-second">
+                <li class="back" ><a href="aguaytia.html">AGUAYTIA</a> </li> 
+                <li class="front"> <a href="puca.html">PUCALLPA</a>
+                    
+                </li>
+                <li>  <a href="contamana.html">CONTAMANA</a></li>
+            </ul>
+        </li>
+        <li> <a href="ubicacion.html">UBICACION</a></li>
+        <li>  <a href="contacto.html">CONTACTO</a></li>
+    </ul>
+</nav>
+<!-- fin-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    <header>
+        <h1>Lugares Turísticos De Contamana</h1>
+    </header>
+    
+
+    <main class="pie">
+        <center><section id="lugar1" class="efe">
+            <h2>La Quebrada De Malquia</h2>
+            <img src="malquia.jpg" alt="Lugar 1">
+            <p>El balneario de Contamana llamada “La Quebrada del Maquía” destaca el verdor de sus orillas por los árboles y arbustos que se asemejan a los paraguas y sus aguas son frías.</p>
+        </section></center>
+
+        <center><section id="lugar2" class="efe">
+            <h2>Aguas Termales En La union</h2>
+            <img src="union.jpg" alt="Lugar 2">
+            <p>El lugar se llama La Unión, el cual se llega por una carretera afirmada pasando 20 Km, para después continuar por una trocha serpenteante que atraviesa claros riachuelos.
+
+                Mientras se realiza una caminata de 30 minutos, se percibe un oloroso vapor que se dispersa en el bosque. Una vez ubicado en el lugar, se observa un arroyo natural que se une con otro de aguas frías, obteniendo temperaturas entre 35 y 60 grados centígrados.</p>
+        </section></center>
+
+        <center><section id="lugar3" class="efe">
+            <h2>El Encanto De Humo</h2>
+            <img src="humo.jpg" alt="Lugar 3">
+            <p>Muy cerca se encuentra “El Encanto de Humo” que se trata de una sauna natural, mientras que a lo largo de la cuenca se halla el bosque con variadas especies de flora y fauna silvestre en sorprendente estado de conservación.
+
+                A su vez percibiendo un fuerte olor a azufre, se convierte en el preludio a la gran colpa de guacamayo, ubicado a sólo 30 minutos de las aguas termales.
+                
+                Y es que a diferencia de otras colpas de la amazonía, los gigantes loros descienden para alimentarse de las sales que neutralizan su dieta de semillas tóxicas..</p>
+        </section></center>
+
+        <center><section id="lugar3" class="efe">
+            <h2>El Llanto De La Anaconda</h2>
+            <img src="llanto.jpg" alt="Lugar 3">
+            <p> “El Llanto de la Anaconda”, la cual es una espectacular cascada de aguas frescas y critalinas que se desliza sobre una gran pared arenisca.
+
+                Allí se deja ver una singular figura de una gigante serpiente amazónica denominada anaconda y en su costado cae el agua como una gran ducha.
+            Entre muchas lagunas en el llano amazónico, se encuentra las lagunas de Chia Tipishca y Suaya, rodeadas de asentamientos de Shipibo-conibo dedicados a la pesca y a la elaboración de artesanías.
+
+Los mega espejos de agua son hitos ecológicos de variadas especies de aves, peces y toda fauna acuática.</p>
+        </section></center>
+
+        <center><section id="lugar3" class="efe">
+            <h2>Mega Espejos De agua y Comunidades Andinas</h2>
+            <img src="espejos.jpg" alt="Lugar 3">
+            <p>Entre muchas lagunas en el llano amazónico, se encuentra las lagunas de Chia Tipishca y Suaya, rodeadas de asentamientos de Shipibo-conibo dedicados a la pesca y a la elaboración de artesanías.
+
+                Los mega espejos de agua son hitos ecológicos de variadas especies de aves, peces y toda fauna acuática.</p>
+        </section></center>
+    </main>
+
+    <div class="footerd">
+        <footer class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="imagenes/logo3.png"      alt="Logo de SLee Dw">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p>
+                        Loba Tours es una empresa de turismo con sede en UCAYALI.</p>
+                    <p>Nuestro objetivo es ofrecer servicios turísticos de alta calidad y personalizados, adaptados a las necesidades y preferencias individuales de cada viajero.</p>
+                  
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+    
+                
+            </div>
+            <div class="grupo-2">
+                <small>&copy; 2024 <b>SLee Dw</b> <ul>
+                    <li> kevin</li>
+                <li>amarilis</li>
+            <li>aldair</li>
+        <li>arnol</li></ul></small>
+            </div>
+        </footer>
+    </div>   
+</body>
+</html>

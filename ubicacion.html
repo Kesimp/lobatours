@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubícanos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+   
+
+    
+}
+
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        
+
+        header {
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    min-width: 700px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #039F6E;
+}
+
+.loba{
+    position: absolute;
+    top: 32px;
+    right: 84%;
+    height: 100px;
+  
+
+}
+
+.loba h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo{
+    height: 100px;
+    
+   
+    margin-left: 50px;
+}
+.cont-ul li a {
+ color: #fff;
+
+
+}
+.cont-ul {
+ right: 100px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ align-items: center;
+ margin-right: 50px;
+ position: absolute;
+}
+.cont-ul   li {
+    list-style: none;
+    cursor: pointer;
+    padding: 20px;
+    transition: all 0.3s ease 0s;
+  
+}
+
+header    li:hover{
+    color: rgb(3, 53, 82);
+}
+
+.cont-ul    li:hover {
+    background-color:#B3FADF;
+}
+.ul-second {
+    display: none;
+    position: absolute;
+    transform: translateY(20px);
+}
+.ul-second > li{
+
+border-bottom: solid 1px #fff;
+text-align: center;
+background-color: #039F6E;
+padding: 20px;
+width: 190px;
+transform: translateX(-20px);
+}
+.ul-second > li:hover{
+    background-color:#B3FADF;
+}
+
+.develop:hover > .ul-second {
+    display: block;
+}
+.ul-third{
+    position: absolute;
+    transform: translateX(100%);
+    right: 0;
+    top: 40%;
+    display: none;
+    background-color: #B3FADF;
+}
+
+.ul-third > li {
+    padding: 20px;
+    border-bottom: solid 1px #fff;
+}
+.front:hover > .ul-third {
+    display: block;
+}
+
+
+/*:::::fin*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+        nav {
+            background-color: #9999ff;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        
+        .map {
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        
+        .address {
+            margin-bottom: 20px;
+        }
+        
+        .address h3 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        
+        .address p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info i {
+            margin-right: 10px;
+            color: #039F6E;
+        }
+        
+        .contact-info p {
+            margin: 0;
+        }
+        
+        .opening-hours {
+            margin-bottom: 20px;
+        }
+        
+        .opening-hours h3 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        
+        .opening-hours table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .opening-hours th,
+        .opening-hours td {
+            padding: 8px;
+            text-align: center;
+        }
+        
+        .opening-hours th {
+            background-color: #9999ff;
+            color: #fff;
+        }
+        
+        .opening-hours td {
+            background-color: #f2f2f2;
+        }
+        
+ 
+    </style>
+</head>
+<body>
+<!-- este es menu  -->
+<header>
+   
+    <a href="index.html"><img src="imagenes/logo3.png" class="logo"  ></a>
+
+     
+    <ul class="cont-ul">
+        
+    
+        <li ><a href="index.html">INICIO</a></li>
+        
+        <li class="develop">
+            <a href="">LUGARES</a>
+            <ul class="ul-second">
+                <li class="back" ><a href="aguaytia.html">AGUAYTIA</a> </li> 
+                <li class="front"> <a href="puca.html">PUCALLPA</a>
+                    
+                </li>
+                <li>  <a href="contamana.html">CONTAMANA</a></li>
+            </ul>
+        </li>
+        <li> <a href="ubicacion.html">UBICACION</a></li>
+        <li>  <a href="contacto.html">CONTACTO</a></li>
+    </ul>
+</header>
+<!-- fin-->
+
+
+    <nav>
+        <h1>Ubícanos</h1>
+    </nav>
+    <div class="container">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24836.647272323484!2d-77.05646982082851!3d38.91069802312873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7bec0734171%3A0x5cbddf806af72d30!2sLoba%20Tours!5e0!3m2!1ses-419!2spe!4v1689802682896!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="address">
+            <h3>Dirección:  </h3>
+            <p>Calle Principal 123</p>
+            <p>Ucayali,  Peru</p>
+        </div>
+        <div class="contact-info">
+            <i class="fas fa-phone"></i>
+            <p>Teléfono: +51 951 347 400</p>
+        </div>
+        <div class="contact-info">
+            <i class="fas fa-envelope"></i>
+            <p>Email: lobatours@example.com</p>
+        </div>
+        <div class="opening-hours">
+            <h3>Horario de atención:</h3>
+            <table>
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                </tr>
+                <tr>
+                    <td>Lunes</td>
+                    <td>9:00 AM - 6:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>9:00 AM - 6:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>9:00 AM - 6:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>9:00 AM - 6:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>9:00 AM - 6:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td>10:00 AM - 2:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Domingo</td>
+                    <td>Cerrado</td>
+                </tr>
+            </table>
+        </div>
+  
+
+
+     
+        
+     </body>
+</html>

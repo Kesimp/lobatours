@@ -1,0 +1,335 @@
+
+
+ 
+
+
+
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Estilos previos perman
+
+        /* Estilos previos permanecen aquí */
+
+        /* Estilos para el menú */
+        
+
+
+
+
+
+
+        main {
+            flex-grow: 1;
+        }
+
+        .titulos {
+            padding: 1rem;
+            background-color: #252735;
+            height: 45vh;
+        }
+
+        .m {
+            position: relative;
+            top: 50px;
+
+
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+
+
+        }
+
+        .galeria {
+            width: 100%;
+            height: 38vh;
+            padding: 20px;
+            position: relative;
+            top: 10%;
+        }
+
+        section {
+            display: flex;
+            width: 100%;
+            height: 100px;
+            flex-grow: 1;
+            object-fit: cover;
+            margin: 0.5%;
+
+        }
+
+        section img {
+            width: 25%;
+            height: 20vh;
+            margin: 10px;
+            opacity: 60%;
+        }
+
+        section img:hover {
+            opacity: 100%;
+            transform: scale(1.2);
+        }
+
+        #container-lugares{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            width: 80%;
+            height: 70vh;
+        }
+
+       
+        .flex-container {
+            text-align: justify;
+            background-color: rgba(209, 215, 214, 0.51);
+            box-shadow: -1px 5px 22px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 5px 22px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 5px 22px -1px rgba(0,0,0,0.75);
+            width: 80%;
+            padding: 10px;
+            margin: 15px;
+
+        }
+        .flex-container-tendencia {
+            display: flex;
+            text-align: justify;
+            background-color: rgba(209, 215, 214, 0.51);
+            box-shadow: -1px 5px 22px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 5px 22px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 5px 22px -1px rgba(0,0,0,0.75);
+            width: 80%;
+            padding: 10px;
+            margin: 20px;
+
+        }
+
+        .flex-item {
+            color: #252735;
+            flex: 0 0 50%;
+           
+            
+            
+        }
+        .flex-item-tendencia {
+                position: relative;
+                left: 10%;
+            
+            
+        }
+        .titulo-lugares{
+            margin: 20px;
+            color: rgb(24, 14, 79);
+            text-align: center;
+        }
+        .titulo-lugares:hover{
+            color: rgb(9, 101, 39);
+            text-align: center;
+        }
+       .flex-item h2{
+            color: black;
+            text-align: center;
+
+        }
+
+        .flex-order-1 {
+            order: 1;
+
+        }
+
+        .flex-reverse {
+            flex-direction: row-reverse;
+
+        }
+    
+    .slider-frame{
+        width: 355px;
+        height: auto;
+        margin: 50px auto o;
+        overflow: hidden;
+    }
+
+    
+    .slider-frame ul{
+        display: flex;
+        padding: 0;
+        width: 400%;
+       
+        animation: slide 15s infinite alternate ease-in-out;
+        
+    }
+    .slider-frame li{
+        list-style: none;
+        width: 100%;
+        
+
+    }
+    .slider-frame img{
+        width: 100%;
+        
+    }
+    @keyframes slide{
+        0% {margin-left: 0%;}
+        20% {margin-left: 0%;}
+        25% {margin-left: -100%;}
+        45% {margin-left: -100%;}
+        50% {margin-left: -200%;}
+        70% {margin-left: -200%;}
+        75% {margin-left: -300%;}
+        100% {margin-left:-300%;}
+
+
+
+    }
+
+    /*aqui copiamos el mismo codigo del slider, solo modificamos una variable para poder modificar el tamaño
+    de las imagenes sin afectar la seccion anterior*/
+
+    .slider-frame-tendencia{
+        width: 400px;
+        height: auto;
+        margin: 50px auto o;
+        overflow: hidden;
+    }
+
+    
+    .slider-frame-tendencia ul{
+        display: flex;
+        padding: 0;
+        width: 400%;
+       
+        animation: slide 15s infinite alternate ease-in-out;
+        
+    }
+    .slider-frame-tendencia li{
+        list-style: none;
+        width: 100%;
+        
+
+    }
+    .slider-frame-tendencia img{
+        width: 100%;
+        
+    }
+    @keyframes slide{
+        0% {margin-left: 0%;}
+        20% {margin-left: 0%;}
+        25% {margin-left: -100%;}
+        45% {margin-left: -100%;}
+        50% {margin-left: -200%;}
+        70% {margin-left: -200%;}
+        75% {margin-left: -300%;}
+        100% {margin-left:-300%;}
+
+
+
+    }
+
+    /*----------------------------fin de la seccion de slider de los lugares mas visitados------------------------------------------*/
+
+
+
+        .footerd {
+
+            background-color: white;
+            border: black 1px solid;
+            position: relative;
+            top: 100px;
+
+        }
+
+        /*:::::Pie de Pagina*/
+        .pie-pagina {
+            width: 100%;
+            background-color: #0a141d;
+
+        }
+
+        .box h2 {
+
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .box p {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .pie-pagina .grupo-1 {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 50px;
+            padding: 45px 0px;
+        }
+
+        .pie-pagina .grupo-1 .box figure {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pie-pagina .grupo-1 .box figure img {
+            width: 250px;
+        }
+
+        .pie-pagina .grupo-1 .box h2 {
+            color: #fff;
+            margin-bottom: 25px;
+            font-size: 20px;
+        }
+
+        .pie-pagina .grupo-1 .box p {
+            color: #efefef;
+            margin-bottom: 10px;
+        }
+
+        .pie-pagina .grupo-1 .red-social a {
+            display: inline-block;
+            text-decoration: none;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            color: #fff;
+            margin-right: 10px;
+            background-color: #0d2033;
+            text-align: center;
+            transition: all 300ms ease;
+        }
+
+        .pie-pagina .grupo-1 .red-social a:hover {
+            color: aqua;
+        }
+
+        .pie-pagina .grupo-2 {
+            background-color: #0a1a2a;
+            padding: 15px 10px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .pie-pagina .grupo-2 small {
+            font-size: 15px;
+        }
+
+        @media screen and (max-width:800px) {
+            .pie-pagina .grupo-1 {
+                width: 90%;
+                grid-template-columns: repeat(1, 1fr);
+                grid-gap: 30px;
+                padding: 35px 0px;
+            }
+        }
+    
